@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts/icons.eot?pzkrz1');
+  src:  url('../fonts/icons.eot?pzkrz1#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?pzkrz1') format('truetype'),
+    url('../fonts/icons.woff?pzkrz1') format('woff'),
+    url('../fonts/icons.svg?pzkrz1#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before, [class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-carmike-logo:before {
+  content: "\e90d";
+  font-size: 4em;
+}
+._icon-carmike-logo:hover, ._icon-discord-logo:hover,
+._icon-ferco-seating:hover, ._icon-indeed-logo:hover, ._icon-kenwood-logo:hover,
+._icon-number-holder:hover,._icon-skf-logo:hover,._icon-teatr-szekspirowski:hover 
+{color:var(--colorPage1);}
+
+._icon-discord-logo:before {
+  content: "\e90e";
+  font-size: 4em;
+}
+
+._icon-ferco-seating:before {
+  content: "\e90f";
+  font-size: 4em;
+}
+
+._icon-indeed-logo:before {
+  content: "\e910";
+  font-size: 4em;
+}
+
+._icon-kenwood-logo:before {
+  content: "\e911";
+  font-size: 4em;
+}
+
+._icon-number-holder:before {
+  content: "\e912";
+  font-size: 4em;
+}
+
+._icon-skf-logo:before {
+  content: "\e913";
+  font-size: 4em;
+}
+._icon-teatr-szekspirowski:before {
+  content: "\e914";
+  font-size: 4em;
+}
+._icon-quotes:before {
+  content: "\e900";
+}
+._icon-html:before {
+  content: "\e901";
+}
+._icon-css3:before {
+  content: "\e902";
+}
+._icon-edit:before {
+  content: "\e903";
+}
+._icon-bootstrap:before {
+  content: "\e904";
+}
+._icon-jquery_ui:before {
+  content: "\e905";
+}
+._icon-js:before {
+  content: "\e906";
+}
+._icon-github:before {
+  content: "\e907";
+}
+._icon-jquery:before {
+  content: "\e908";
+}
+._icon-php:before {
+  content: "\e909";
+}
+._icon-mysql:before {
+  content: "\e90a";
+}
+._icon-setting:before {
+  content: "\e90b";
+}
+._icon-logo:before {
+  content: "\e90c";
+}
